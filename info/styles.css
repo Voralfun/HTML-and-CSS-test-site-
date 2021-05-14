@@ -1,0 +1,29 @@
+body
+{
+	background-image:url(images/back.gif);background-repeat: no repeat;background-position: center; background-size: 116%;
+}
+
+.menu
+{
+height:50px;
+background:#4c4c4c;
+}
+.menu li a
+{
+font:27px "Times New Roman", Times, serif;
+color:#bcbcbc;
+text-decoration: none;
+}
+li{list-style-type: none;}
+.main {
+	width: 740px;
+	margin: 0 auto;
+	padding: 0 10px;
+	border: 4px solid rgb(97, 15, 79);
+	background:#285569 ;
+	margin-top: 5%;
+  }
+h1{color:rgb(139, 29, 29);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+h2{color:rgb(140, 165, 28);font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.home{background-image: url(images/home.png);background-repeat: no-repeat;background-size: 4%;background-position:7% 0% ;}
+p{font-size: 17px;}

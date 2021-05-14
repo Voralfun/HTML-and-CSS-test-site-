@@ -1,0 +1,26 @@
+body
+{
+	background-image:url(images/back.gif);background-repeat: no repeat;background-position: center; background-size: 60%;
+}
+.home{background-image: url(images/home.png);background-repeat: no-repeat;background-size: 4%;background-position:7% 0% ;}
+.menu
+{
+height:50px;
+background:#4c4c4c;
+}
+.menu li a
+{
+font:27px "Times New Roman", Times, serif;
+color:#bcbcbc;
+text-decoration: none;
+}
+li{list-style-type: none;}
+.main {
+	width: 740px;
+	margin: 0 auto;
+	padding: 0 10px;
+	border: 4px solid white;
+	background:#cbcbcb ;
+	margin-top: 5%;
+  }
+  h2{font-style: italic;color:brown}

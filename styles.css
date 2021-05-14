@@ -1,0 +1,148 @@
+body
+{
+	background-image:url(images/back.gif);background-repeat: no repeat;background-position: center; background-size: 60%;
+}
+h1{background-image:url(images/statue-removebg-preview.png);background-repeat: no-repeat;background-size: 20%;background-position:67% 0%}
+.site-blok
+{
+width:800px; /* ширина сайта*/
+margin: 0 auto; /* выравниваем сайт по сентру*/
+}
+.header h1
+{
+margin:80px 0;
+text-align:center;
+font:40px "Impact", Times, serif;
+color:#444343;
+}
+.menu
+{
+height:51px;
+background:#4c4c4c;
+}
+.menu ul
+{
+overflow: hidden;
+}
+.menu li
+{
+padding:10px;
+float:left; /* граница сайта */
+}
+.menu li a
+{
+font:27px "Times New Roman", Times, serif;
+color:#bcbcbc;
+text-decoration: none;
+}
+
+.blok-content
+{
+background:#cbcbcb;
+overflow: hidden;
+padding:10px 5px 15px 5px;
+}
+.blok-left
+{
+background:rgb(59, 56, 58);
+width:550px; /* ширина блока левого*/
+float:left; /* граница сайта */
+padding:5px;
+-webkit-box-shadow: 0 10px 6px -6px #444343;
+-moz-box-shadow: 0 10px 6px -6px #444343;
+box-shadow: 0 10px 6px -6px;
+font: 12pt sans-serif;  
+border-radius: 5px;
+color:rgb(187, 174, 154);
+}
+.blok-right
+{
+background:#fff;
+width:200px; /* ширина блока
+правого*/ float:right; /* граница
+сайта */ padding:5px;
+-webkit-box-shadow: 0 10px 6px -6px #444343;
+-moz-box-shadow: 0 10px 6px -6px #444343;
+box-shadow: 0 10px 6px -6px #444343;
+}
+.footer
+{
+padding:5px;
+}
+.footer a
+{
+font:20px "Times New Roman", Times, serif;
+color:#bcbcbc;
+text-decoration: none;
+}
+li{list-style-type: none;}
+.photo{padding-right: 2px;margin: 1px;margin-bottom: 39px; margin-right: 1%;}
+.pos{margin-left: 120px;}
+a {
+	text-decoration: none;
+  }
+  
+  nav {
+	font-family: monospace;
+  }
+  
+  ul {
+	background: #444343;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+  }
+  
+  li {
+	color: #fff;
+	background: #444343;
+	display: block;
+	float: left;
+	padding: 1rem;
+	position: relative;
+	text-decoration: none;
+	transition-duration: 0.5s;
+  }
+	
+  li a {
+	color: #fff;
+  }
+  
+  li:hover,
+  li:focus-within {
+	background: red;
+	cursor: pointer;
+  }
+  
+  li:focus-within a {
+	outline: none;
+  }
+  
+  ul li ul {
+	background: #444343;
+	visibility: hidden;
+	opacity: 0;
+	min-width: 5rem;
+	position: absolute;
+	transition: all 0.5s ease;
+	margin-top: 1rem;
+	left: 0;
+	display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+	 visibility: visible;
+	 opacity: 1;
+	 display: block;
+  }
+  
+  ul li ul li {
+	clear: both;
+	width: 100%;
+  }
+  .dropdown {
+    position: relative; 
+   }
